@@ -1,0 +1,41 @@
+{
+  "annotations": {"list": []},
+  "editable": true,
+  "gnetId": null,
+  "graphTooltip": 0,
+  "id": null,
+  "links": [],
+  "panels": [
+    {
+      "type": "graph",
+      "title": "Ticks Processed (counter)",
+      "targets": [
+        {
+          "expr": "ticks_processed_total",
+          "refId": "A"
+        }
+      ],
+      "gridPos": {"x": 0, "y": 0, "w": 24, "h": 9}
+    },
+    {
+      "type": "graph",
+      "title": "Parquet Files Written",
+      "targets": [
+        {
+          "expr": "parquet_files_written_total",
+          "refId": "B"
+        }
+      ],
+      "gridPos": {"x": 0, "y": 9, "w": 24, "h": 9}
+    }
+  ],
+  "schemaVersion": 27,
+  "style": "dark",
+  "tags": [],
+  "templating": {"list": []},
+  "time": {"from": "now-6h", "to": "now"},
+  "timepicker": {},
+  "title": "Market Pipeline",
+  "uid": null,
+  "version": 0
+}

@@ -1,0 +1,8 @@
+aiokafka==0.12.0
+uvicorn[standard]
+fastapi
+prometheus-client
+redis
+pandas
+pyarrow
+aiohttp
